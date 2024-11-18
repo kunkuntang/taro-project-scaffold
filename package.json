@@ -49,8 +49,8 @@
     "@tarojs/shared": "3.6.31",
     "@tarojs/taro": "3.6.31",
     "@tarojs/plugin-framework-react": "3.6.31",
-    "mobx": "^4.8.0",
-    "mobx-react": "^6.1.4",
+    "mobx": "^6.9.0",
+    "mobx-react-lite": "^3.4.3",
     "react-dom": "^18.0.0",
     "@tarojs/react": "3.6.31",
     "react": "^18.0.0"
