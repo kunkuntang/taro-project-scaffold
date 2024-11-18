@@ -1,3 +1,5 @@
+import { resolve } from "path"
+
 const config = {
   projectName: 'taro-project-scaffold',
   date: '2024-11-15',
@@ -29,6 +31,9 @@ const config = {
   },
   cache: {
     enable: false // Webpack 持久化缓存配置，建议开启。默认配置请参考：https://docs.taro.zone/docs/config-detail#cache
+  },
+  alias: {
+    '@': resolve(__dirname, '..', 'src')
   },
   mini: {
     postcss: {
